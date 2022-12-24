@@ -8,6 +8,10 @@ html{
 *::after{
   box-sizing: inherit;
 }
+*:focus{
+  outline: 2px dashed #ea625c;
+  outline-offset: 2px;
+}
 body{
   display: flex;
   flex-direction: column;
